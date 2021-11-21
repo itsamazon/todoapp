@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import Header from './header';
 import Todo from './todo';
 import Footer from './footer'; 
-import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
 
