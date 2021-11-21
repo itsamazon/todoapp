@@ -1,0 +1,56 @@
+.login{
+    width: 35%;
+}
+
+.login_wrap{
+    background-color: $twitter_blue;
+    color: white;
+    height: 60vh;
+    position: relative;
+    width: 90%;
+}
+
+.login_wrap_content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login_wrap_content button{
+    padding: 10px;
+    border: 1px solid white;
+    width: 80%;
+    border-radius: 10px;
+    background-color: $twitter_blue;
+    color: white;
+}
+.login_form{
+   border: 1px solid $twitter_blue;
+    color: rgb(112, 111, 111);
+    height: 70vh;
+    position: relative;
+    
+}
+.login_form_content{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.login_form_content form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+}
+
+.login_form_content button{
+    width: 108%;
+    padding: 10px 30px;
+    border-radius: 10px;
+   background-color: $twitter_blue;
+   color: white;
+   border: 1px solid white
+}
