@@ -11,7 +11,6 @@ const Dashboard = (props) => {
     const dispatch = useDispatch()
     const navigate = useNavigate() 
     const signOut = () =>{
-        dispatch({type: 'todo/clear' })
         navigate('/')
     } 
     return (
