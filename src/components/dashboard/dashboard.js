@@ -8,7 +8,6 @@ import { useNavigate } from 'react-router-dom';
 
 
 const Dashboard = (props) => {
-    const dispatch = useDispatch()
     const navigate = useNavigate() 
     const signOut = () =>{
         navigate('/')
